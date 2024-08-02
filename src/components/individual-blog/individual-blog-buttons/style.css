@@ -1,0 +1,35 @@
+.individual-blog-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 64px;
+}
+
+.individual-blog-buttons button {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: 180px;
+  height: 48px;
+  border-radius: 12px;
+  align-items: center;
+  color: white;
+  border: none;
+}
+
+.individual-blog-buttons > :nth-child(1) {
+  background-color: #4761a6;
+}
+
+.individual-blog-buttons > :nth-child(2) {
+  background-color: #3c82c0;
+}
+
+.individual-blog-buttons > :nth-child(3) {
+  background-color: #54cc61;
+}
+
+.individual-blog-buttons > :nth-child(4) {
+  background-color: #ea4968;
+}

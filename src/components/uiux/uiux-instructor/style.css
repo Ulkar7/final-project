@@ -1,0 +1,45 @@
+.instructors {
+  display: flex;
+  flex-direction: column;
+}
+
+.instructors h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  margin: 50px 0 24px 0;
+}
+
+.instructors h1 :nth-child(2) {
+  color: #42aaff;
+}
+
+.instructors .instructor {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.instructors .instructor img {
+  width: 246px;
+}
+
+.instructors .instructor button {
+  width: 131px;
+  height: 35px;
+  border-radius: 17.5px;
+  border: none;
+  color: white;
+  background-color: #005092;
+}
+
+.instructors .instructor h4 {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #222b45;
+}
+
+@media (max-width: 768px) {
+  .instructors {
+    align-items: center;
+  }
+}

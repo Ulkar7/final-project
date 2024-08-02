@@ -1,0 +1,41 @@
+.workers {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.lorem {
+  display: flex;
+  margin-top: 35px;
+  gap: 16px;
+}
+
+.lorem .background {
+  background-color: #d9d9d9;
+  min-width: 300px;
+  height: 180px;
+}
+
+.lorem .lorem-content h5 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lorem .lorem-content p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .lorem {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lorem .background,
+  .lorem .lorem-content {
+    width: 80%;
+  }
+}

@@ -1,0 +1,120 @@
+.who-we-are header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.who-we-are header img {
+  height: 392px;
+  width: 588px;
+}
+
+.who-we-are header p {
+  width: 588px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+
+.advertising {
+  margin-top: 5%;
+  display: flex;
+}
+
+.advertising div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  width: 48%;
+}
+
+.advertising div h4 {
+  color: #005092;
+  font-family: sans-serif;
+  font-size: 32px;
+}
+
+.advertising div p {
+  margin-top: 20px;
+  font-family: sans-serif;
+  min-height: 84px;
+  font-size: 20px;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.who-we-are > h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 24px 0;
+}
+
+.who-we-are .instructor {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 64px;
+}
+.who-we-are .instructor.reverse {
+  flex-direction: row-reverse;
+}
+.who-we-are .instructor h1 {
+  color: #4e67b9;
+}
+
+.who-we-are .instructor img {
+  width: 48%;
+}
+.instructor > div {
+  width: 48%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 990px) {
+  .who-we-are header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .who-we-are header > :nth-child(n) {
+    width: 80%;
+  }
+
+  .who-we-are .advertising {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .who-we-are .advertising div {
+    width: 80%;
+  }
+
+  .who-we-are .instructor {
+    flex-direction: column;
+  }
+  .who-we-are .instructor.reverse {
+    flex-direction: column;
+  }
+
+  .who-we-are .instructor > :nth-child(n) {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .who-we-are header :nth-child(n) {
+    width: 95%;
+  }
+
+  .who-we-are .instructor > :nth-child(n) {
+    width: 95%;
+  }
+}

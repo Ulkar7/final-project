@@ -1,0 +1,33 @@
+.uiux-numbers {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 64px;
+}
+
+.uiux-numbers > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 350px;
+  gap: 16px;
+}
+
+.uiux-numbers > div h2 {
+  font-size: 30px;
+  color: #005092;
+  font-family: sans-serif;
+}
+
+.uiux-numbers > div p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+@media (max-width: 992px) {
+  .uiux-numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+}

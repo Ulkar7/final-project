@@ -1,0 +1,71 @@
+.groups {
+  display: flex;
+  height: 140px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.groups .group {
+  width: 23%;
+  display: flex;
+  height: 120px;
+  border: 3px solid #005092;
+  border-radius: 17px;
+  padding-left: 24px;
+  align-items: center;
+  gap: 16px;
+}
+
+.groups .group .icon {
+  height: 77.85px;
+  width: 77.85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.groups > :nth-child(1) .icon {
+  background-color: #005092;
+}
+
+.groups > :nth-child(2) .icon {
+  background-color: #2196f3;
+}
+
+.groups > :nth-child(3) .icon {
+  background-color: #1e1e1e;
+}
+
+.groups > :nth-child(4) .icon {
+  background-color: #5a21c9;
+}
+
+.groups .group .group-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.groups .group .group-text .instructor {
+  color: #7e7eaa;
+  font-family: sans-serif;
+}
+
+.groups .group .group-text .number {
+  font-size: 32px;
+  font-family: sans-serif;
+}
+
+.instructor {
+  font-family: sans-serif;
+}
+@media (max-width: 1200px) {
+  .groups {
+    overflow-x: scroll;
+  }
+
+  .groups .group {
+    min-width: 260px;
+  }
+}

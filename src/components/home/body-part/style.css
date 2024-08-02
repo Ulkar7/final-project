@@ -1,0 +1,73 @@
+.body-part {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.body-part .left-part {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 45%;
+}
+
+.body-part .girl-image {
+  width: 45%;
+}
+.body-part .girl-image img {
+  width: 100%;
+}
+.body-part .left-part .future {
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+}
+
+.body-part .left-part .small-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-part .left-part .buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.body-part .left-part .buttons button {
+  width: 154px;
+  height: 48px;
+}
+
+.body-part .left-part .buttons .button-blue {
+  background-color: #005092;
+  border-radius: 12px;
+  color: white;
+  border: none;
+}
+
+.body-part .left-part .buttons .button-white {
+  background-color: white;
+  border-radius: 12px;
+  color: #005092;
+  border: 1px solid #005092;
+}
+
+@media (max-width: 992px) {
+  .body-part {
+    flex-direction: column-reverse;
+  }
+
+  .body-part .left-part {
+    width: 80%;
+  }
+
+  .body-part .girl-image {
+    width: 80%;
+  }
+}

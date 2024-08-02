@@ -1,0 +1,15 @@
+.mezun h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.container.mezun .photos {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.container.mezun .photos div {
+  min-width: 282px;
+}

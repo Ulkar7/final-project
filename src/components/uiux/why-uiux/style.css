@@ -1,0 +1,20 @@
+.why-uiux {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.why-uiux h1 {
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+.why-uiux h1 :nth-child(2) {
+  color: #005092;
+}
+
+.why-uiux p {
+  font-size: 20px;
+  font-family: sans-serif;
+}

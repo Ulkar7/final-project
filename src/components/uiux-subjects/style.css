@@ -1,0 +1,19 @@
+.uiux-subejct > h1 {
+  margin: 20px 0;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.uiux-subejct > h1 :nth-child(2) {
+  color: #42aaff;
+}
+
+.uiux-subejct ul {
+  list-style: none;
+  font-family: sans-serif;
+}
+.uiux-subejct > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

@@ -1,0 +1,17 @@
+.blog-popular {
+  background-color: #42aaff;
+  margin-top: 64px;
+}
+
+.blog-popular h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.blog-popular h1 :nth-child(2) {
+  color: white;
+}

@@ -1,0 +1,23 @@
+.emekdaslar {
+  padding-top: 24px;
+}
+
+.emekdaslar h1 {
+  display: flex;
+  font-size: 40px;
+  gap: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.emekdaslar h1 :nth-child(2) {
+  color: #42aaff;
+}
+
+.emekdaslar .emekdaslar-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  margin-top: 40px;
+  overflow-x: auto;
+}
