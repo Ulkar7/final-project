@@ -35,10 +35,38 @@ const Header = () => {
               <div></div>
             </div>
             <ul>
-              <li onClick={() => navigate("/about")}>Haqqımızda</li>
-              <li onClick={() => navigate("/training")}>Tədris</li>
-              <li onClick={() => navigate("/career")}>Karyera</li>
-              <li onClick={() => navigate("/blog")}>Blog</li>
+              <li
+                onClick={() => {
+                  navigate("/about");
+                  setMenu(false);
+                }}
+              >
+                Haqqımızda
+              </li>
+              <li
+                onClick={() => {
+                  navigate("/training");
+                  setMenu(false);
+                }}
+              >
+                Tədris
+              </li>
+              <li
+                onClick={() => {
+                  navigate("/career");
+                  setMenu(false);
+                }}
+              >
+                Karyera
+              </li>
+              <li
+                onClick={() => {
+                  navigate("/blog");
+                  setMenu(false);
+                }}
+              >
+                Blog
+              </li>
             </ul>
           </div>
           <div>
