@@ -53,6 +53,9 @@
   background-color: blue;
 }
 @media (max-width: 992px) {
+  .header {
+    z-index: 2;
+  }
   .burger-menu {
     display: flex;
     flex-direction: column;
@@ -61,7 +64,6 @@
     width: 32px;
     height: 24px;
     cursor: pointer;
-    z-index: 2;
   }
 
   .position-absolute {
